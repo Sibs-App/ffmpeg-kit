@@ -18,15 +18,11 @@
     "ffmpeg-kit",
     "ios"
   ],
-  "repository": "https://github.com/arthenica/ffmpeg-kit",
-  "author": "ARTHENICA <open-source@arthenica.com> (https://www.arthenica.com)",
+  "repository": "https://github.com/Sibs-App/ffmpeg-kit",
+  "author": "Sibs-App <open-source@Sibs-App.com> (https://www.Sibs-App.com)",
   "license": "LGPL-3.0",
-  "bugs": {
-    "url": "https://github.com/arthenica/ffmpeg-kit/issues"
-  },
-  "homepage": "https://github.com/arthenica/ffmpeg-kit",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.7.0",
@@ -62,9 +58,6 @@
     "git": {
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}"
-    },
-    "npm": {
-      "publish": true
     },
     "github": {
       "release": true
